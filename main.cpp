@@ -8,6 +8,12 @@
 
 
 
+int get_user_inputs();
+
+int calculate_values();
+
+int display_calculated_values();
+
 
 int main() {
 
@@ -19,9 +25,17 @@ int main() {
     int loan_amount_output;
     int monthly_payment;
 
+
+
+
     std::cout << "Hello, world" << std::endl;
     return 0;
 
 
 }
+
+
+
+
+
 
