@@ -16,6 +16,9 @@ int main() {
     int loan_period;
 
 
+    int loan_amount_output;
+    int monthly_payment;
+
     std::cout << "Hello, world" << std::endl;
     return 0;
 
