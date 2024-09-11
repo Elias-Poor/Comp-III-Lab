@@ -5,8 +5,20 @@
 
 #include <iostream>
 
+
+
+
+
 int main() {
+
+    double annual_interest_rate;
+    int loan_amount;
+    int loan_period;
+
 
     std::cout << "Hello, world" << std::endl;
     return 0;
+
+
 }
+
