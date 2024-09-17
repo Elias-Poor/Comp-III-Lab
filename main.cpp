@@ -12,7 +12,8 @@ int get_user_inputs();
 
 int calculate_values();
 
-int display_calculated_values();
+void display_calculated_values(double annual_interest, double total_loan_amount, int months, double monthly_payment);
+
 
 
 int main() {
@@ -26,12 +27,18 @@ int main() {
     int monthly_payment;
 
 
+    display_calculated_values(15, 1176.47, 12, 98.04);
 
-
-    std::cout << "Hello, world" << std::endl;
     return 0;
 
 
+}
+
+
+void display_calculated_values(double annual_interest, double total_loan_amount, int months, double monthly_payment) {
+
+    std::cout << "The total amount of your loan (including interest at " << annual_interest << "% per annum) is $" << total_loan_amount << "." << std::endl;
+    std::cout << "Your monthly payment for " << months << "months will be $" << monthly_payment << "." << std::endl;
 }
 
 
